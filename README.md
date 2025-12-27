@@ -6,7 +6,8 @@ Free motion tracking bridge for [PNGTubeRemix](https://github.com/MudkipWorld/PN
 ---
 
 ## 🚧 This Project is Still: Work in Progress!
-There is currently **no ETA** for a public release. (Sorry, still working out the flaws and optimization.)
+There is currently **no ETA** for a public release.
+> (Sorry, still working out the flaws and optimization.)
 ---
 
 ## Who is this tool for?
