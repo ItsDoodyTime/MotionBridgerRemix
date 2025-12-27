@@ -1,0 +1,92 @@
+***LAST UPDATED: 27 December, 2025 @ 6:35 AM (I need to sleep...)
+
+##############################################
+|                                            |
+|           Which One to Download?           |
+|                                            |
+##############################################
+TL;DR of this section is:
+- if you know how to code in python, download vpngremix-dev-pack.zip
+- if you don't know how to code, download vpngremix.exe
+
+Long version:
+    Dev Pack:
+        - This includes EVERYTHING I used in the development process.
+        - It is very small inf file size since it's just the the source code.
+        - You need install python and dependencies YOURSELF. (I recommend doing it in a Virtual Environment.)
+
+        Use this version if you want to customize the code, or if your model is super advanced.
+        This just means if you don't know how to code, you need to learn and make your own script.
+
+        Dependencies to download:
+            - Python (Program Language)
+            - OpenCV-Python (Core System - enabling some optimizations, allowing webcam use, and smoother functions)
+            - MediaPipe (Motion Tracking)
+            - Websocket-Client (Needed to connect to websockets)
+            - Numpy (for quick math and arrays)
+
+    vpngremix.exe:
+        - This is a onefile version that comes with all the dependencies and python bundled.
+        - It is as simple as install, configure, and run. :)
+        - It has SOME optimzations (though idk what im doing so it might not make a difference lol)
+        - It is smaller in size, but still larger than you would expect a translator script to be, due to it being a CV project.
+        - It limits you to the config file, so if I haven't added a feature or "sprite part", you can't change its values. :/
+
+
+
+
+##############################################
+|                                            |
+|           Frequently Ask Questions         |
+|                                            |
+##############################################
+
+What version of PNGTubeRemix do i need for this tool?
+    - 1.4.1 or higher
+
+"...." is not working
+    - Read the "COMMON MISTAKES" section below.
+
+Will this work with my operating system?
+    - dunno. try and see! (I've only tested Windows.)
+
+I tried to run it but the tool doesn't launch...
+    - Some antivirus softwares might block it because of false positives.
+
+Is this safe to run?
+    - Yes! You might get a "Windows Protected your PC." warning, and that's expected!
+    It's because this .exe is not codesigned. (which costs a good amount of money and im broke. lol)
+
+How do i gracefully close the program?
+    - Press Escape.
+
+I don't have a webcam, can i use my phone as a virtual camera?
+    - Yes. just change the webcam index in config.json
+    - or if you have downloaded the Dev Pack, change it in the source code.
+
+Do it jiggle?
+    - ......... YURRR! B-)
+
+MORE FAQ COMING SOON! (maybe... depends if i feel like updating this.)
+
+
+#############################
+|                           |
+|      COMMON MISTAKES      |
+|                           |
+#############################
+
+"Camera doesn't open/is unavailable."
+    This is due to:
+        - Camera already being used by another app.
+        - Wrong camera index in code.
+
+"WebSocket connection fails/couldn't start."
+    This is due to:
+        - PNGTubeRemix not running **OR** if it is running, the websocket server is not started.
+        - The websocket port has changed in PNGTubeRemix
+        - Your Firewall is blocking "localhost"
+
+"Movement feels jittery/snappy and animations have low frame rate."
+    This is due to:
+        - The SEND_INTERVAL is set to a higher value than the default
