@@ -3,7 +3,7 @@ Free motion tracking bridge for [PNGTubeRemix](https://github.com/MudkipWorld/PN
 
 ![motionbridgerremix-social-banner](https://github.com/user-attachments/assets/14094005-f5b9-43d4-b81c-21e99605b282)
 
-# ---
+---
 
 ## 🚧 This Project is Still: Work in Progress!
 There is currently **no ETA** for a public release. (Sorry, still working out the flaws and optimization.)
