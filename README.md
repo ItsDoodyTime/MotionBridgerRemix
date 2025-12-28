@@ -10,6 +10,11 @@ There is currently **no ETA** for a public release. - [View the current To-Do Li
 > (Sorry, still working out the flaws and optimization.)
 ---
 
+## Features
+*To be determined...*
+
+---
+
 ## Who is this tool for?
 
 This tool is made for:
