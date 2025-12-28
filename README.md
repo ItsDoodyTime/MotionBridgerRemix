@@ -10,6 +10,7 @@ There is currently **no ETA** for a public release.
 > (Sorry, still working out the flaws and optimization.)
 
 ### ⚠️PLEASE SAVE A BACKUP OF YOUR RIG BEFORE RUNNING THIS TOOL!⚠️
+#### 🚨THIS TOOL WILL NOT WORK WITHOUT PNGTUBEREMIX!🚨
 ---
 
 ## Features
@@ -67,16 +68,16 @@ Don't worry! If that's something you're interested in, I will go over the entire
 
 MotionBridgerRemix comes in **two editions**, depending on your experience level.
 
-### Which one to Download? (TL;DR)
+### Which one to use? (TL;DR)
 
 - **You know how to code in Python / want to customize things:**  
-  → `MotionBridgeRemix-dev-pack.zip`
+  → `MotionBridgeRemix-Dev-Pack`
 - **You don’t know how to code / want plug-and-play:**  
-  → `MotionBridgerRemix.exe`
+  → `MotionBridgerRemix`
 
 ---
 
-### Developer Pack (`MotionBridgerRemix-Dev-Pack.zip`)
+### Developer Pack (`MotionBridgerRemix-Dev-Pack`)
 
 Best for advanced users, developers, or heavy customization.
 
@@ -99,13 +100,13 @@ Best for advanced users, developers, or heavy customization.
 - **PyInstaller** - OPTIONAL: used for bundling everything in one executable (Recommended for Content Creation, keeps the directory clean!)
 > These dependencies are not included in the package!
 
-Streamlined command to install all dependencies:
+Streamlined command to install all dependencies (Assuming you have Python installed):
 
 `pip install opencv-python mediapipe websocket-client numpy pyinstaller`
 
 ---
 
-### Pre-Packaged Tool (`MotionBridgerRemix.zip`)
+### Pre-Packaged Tool (`MotionBridgerRemix`)
 
 Best for beginners and creators who want simplicity or to bring more life to their model.
 
@@ -138,7 +139,7 @@ Please read the **[Privacy & Usage Notice](https://github.com/ItsDoodyTime/Motio
 ## Planned Features:
 - Profile System (Switching profiles for different models with different config values.)
 - Mesh Manipulation
-- My own version of T.I.T.S and other Integrations
+- My own version of [T.I.T.S](https://remasuri3.itch.io/tits) and other Integrations
 - Additional pre-made Animations
 - Hand tracking
 - Setup wizard to simplify the configuration of the tool
