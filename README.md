@@ -127,7 +127,7 @@ This version prioritizes **ease of use over flexibility**.
 
 ## More Information
 
-- [Wiki & Documentation](/wiki)
+- [Wiki & Documentation](https://github.com/ItsDoodyTime/MotionBridgerRemix/wiki)
 - [Rigging Guide](#)
 - [Example Tracking Rig](#)
 
