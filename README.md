@@ -6,8 +6,10 @@ Free motion tracking bridge for [PNGTubeRemix](https://github.com/MudkipWorld/PN
 ---
 
 ## 🚧 This Project is Still: Work in Progress!
-There is currently **no ETA** for a public release. - [View the current To-Do List](https://github.com/ItsDoodyTime/MotionBridgerRemix/blob/main/ROADMAP.md)
+There is currently **no ETA** for a public release.
 > (Sorry, still working out the flaws and optimization.)
+
+### ⚠️PLEASE SAVE A BACKUP OF YOUR RIG BEFORE RUNNING THIS TOOL!⚠️
 ---
 
 ## Features
