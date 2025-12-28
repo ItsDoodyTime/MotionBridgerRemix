@@ -138,3 +138,6 @@ Please read the **[Privacy & Usage Notice](https://github.com/ItsDoodyTime/Motio
 - Mesh Manipulation
 - My own version of T.I.T.S and other Integrations
 - Additional pre-made Animations
+- Hand tracking
+- Setup wizard to simplify the configuration of the tool
+
