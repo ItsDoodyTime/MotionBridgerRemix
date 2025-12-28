@@ -127,7 +127,9 @@ This version prioritizes **ease of use over flexibility**.
 
 ## More Information
 
-More documentation, guides, and examples will be added soon-ish!
+[Wiki & Documentation](#)
+[Rigging Guide](#)
+[Example Tracking Rig](#)
 
 ---
 
