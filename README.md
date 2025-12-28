@@ -80,7 +80,8 @@ Best for advanced users, developers, or heavy customization.
 - **WebSocket-Client** — communication with PNGTubeRemix
 - **NumPy** — fast math and array handling  
 > These dependencies are not included in the package!
-Streamlined command to install all dependencies: `pip install opencv-python mediapipe websocket-client numpy`
+Streamlined command to install all dependencies:
+> `pip install opencv-python mediapipe websocket-client numpy`
 
 ---
 
