@@ -30,6 +30,7 @@ MBR is compatible with:
 - Cycling Sprites
 - States
 - Meshes
+- Phone, Virtual, and Actual Cameras (and webcams)
 
 ---
 
