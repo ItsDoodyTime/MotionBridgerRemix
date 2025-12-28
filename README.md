@@ -24,8 +24,9 @@ There is currently **no ETA** for a public release. - [View the current To-Do Li
 MBR is compatible with:
 - Models with lots of individually moving parts
 - Toggles, Assets, children sprites
-- Cycling sprites (as long as the parent sprite is configured.)
-- States (as long as they share the same parent sprite and it's configured.)
+- Cycling Sprites
+- States
+- Meshes
 
 ---
 
@@ -131,3 +132,9 @@ More documentation, guides, and examples will be added soon-ish!
 Please read the **[Privacy & Usage Notice](https://github.com/ItsDoodyTime/MotionBridgerRemix/blob/main/PRIVACY.md)** before using this software.
 
 ---
+
+## Planned Features:
+- Profile System (Switching profiles for different models with different config values.)
+- Mesh Manipulation
+- My own version of T.I.T.S and other Integrations
+- Additional pre-made Animations
