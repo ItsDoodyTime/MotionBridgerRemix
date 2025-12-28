@@ -29,9 +29,9 @@ If you want a VTuber-style model but:
 
 ## What do you need?
 
-**Just art of your character.** That’s it!
+**Just art of your character and [PNGTubeRemix](https://github.com/MudkipWorld/PNGTuber-Remix).** That’s it!
 
-- If you already use **PNGTubeRemix**, you’re most of the way there.
+- This tool was made for PNGTubeRemix, **it WON'T work without it!**
 - Your PNG **does not need to be specifically rigged for tracking** — standard PNGTuber rigs work just fine.
 That said, rigging specifically for tracking will give **better results**.
 
