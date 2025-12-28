@@ -11,7 +11,21 @@ There is currently **no ETA** for a public release. - [View the current To-Do Li
 ---
 
 ## Features
-*To be determined...*
+- Head Tracking: Pitch, Yaw, Roll
+- Blinking Tracking by Threshold
+- Eye Tracking: Pitch only (Yaw included too but inconsistent and estimated!)
+- Body tracking: Roll only
+- Actions Per Sprite part
+- Self-Check Diagnosis and Optimized
+- Configurable & 100% Customizable
+- Open source & FREE forever!
+
+## Compatibility
+MBR is compatible with:
+- Models with lots of individually moving parts
+- Toggles, Assets, children sprites
+- Cycling sprites (as long as the parent sprite is configured.)
+- States (as long as they share the same parent sprite and it's configured.)
 
 ---
 
@@ -92,12 +106,10 @@ Streamlined command to install all dependencies:
 
 Best for beginners and creators who want simplicity or to bring more life to their model.
 
-**Features:**
-- One-file executable
-- Python and all dependencies bundled
+**What's included:**
+- One-file Executable
+- Python and all Dependencies bundled
 - Simple workflow: **install → configure → run**
-- Includes some optimizations (results may vary)
-
 
 **Notes:**
 - Larger file size due to all of the libraries and dependencies
