@@ -59,7 +59,7 @@ MotionBridgerRemix comes in **two editions**, depending on your experience level
 
 ---
 
-### Developer Pack (`MotionBridgerRemix-dev-pack.zip`)
+### Developer Pack (`MotionBridgerRemix-Dev-Pack.zip`)
 
 Best for advanced users, developers, or heavy customization.
 
@@ -79,15 +79,16 @@ Best for advanced users, developers, or heavy customization.
 - **MediaPipe** — motion tracking  
 - **WebSocket-Client** — communication with PNGTubeRemix
 - **NumPy** — fast math and array handling  
+- **PyInstaller** - OPTIONAL: used for bundling everything in one executable (Recommended for Content Creation, keeps the directory clean!)
 > These dependencies are not included in the package!
 
 Streamlined command to install all dependencies:
 
-`pip install opencv-python mediapipe websocket-client numpy`
+`pip install opencv-python mediapipe websocket-client numpy pyinstaller`
 
 ---
 
-### Pre-Packaged Tool (`MotionBridgerRemix.exe`)
+### Pre-Packaged Tool (`MotionBridgerRemix.zip`)
 
 Best for beginners and creators who want simplicity or to bring more life to their model.
 
