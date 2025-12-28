@@ -59,7 +59,7 @@ MotionBridgerRemix comes in **two editions**, depending on your experience level
 
 ---
 
-## Developer Pack (`MotionBridgerRemix-dev-pack.zip`)
+### Developer Pack (`MotionBridgerRemix-dev-pack.zip`)
 
 Best for advanced users, developers, or heavy customization.
 
@@ -72,7 +72,7 @@ Best for advanced users, developers, or heavy customization.
 - Your model rig is super advanced
 - You’re comfortable writing or adjusting Python scripts (there's a slight learning curve!)
 
-### Required Dependencies
+#### Required Dependencies
 
 - **Python** — core language  
 - **OpenCV-Python** — webcam input, performance optimizations  
@@ -84,7 +84,7 @@ Streamlined command to install all dependencies: `pip install opencv-python medi
 
 ---
 
-## Pre-Packaged Tool (`MotionBridgerRemix.exe`)
+### Pre-Packaged Tool (`MotionBridgerRemix.exe`)
 
 Best for beginners and creators who want simplicity or to bring more life to their model.
 
