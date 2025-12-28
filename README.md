@@ -137,10 +137,10 @@ Please read the **[Privacy & Usage Notice](https://github.com/ItsDoodyTime/Motio
 ---
 
 ## Planned Features:
-- Profile System (Switching profiles for different models with different config values.)
-- Mesh Manipulation
-- My own version of [T.I.T.S](https://remasuri3.itch.io/tits) and other Integrations
-- Additional pre-made Animations
+- Animation Presets
 - Hand tracking
+- Mesh Manipulation
 - Setup wizard to simplify the configuration of the tool
+- Profile System (Switching profiles for different models with different config values.)
+- My own version of [T.I.T.S](https://remasuri3.itch.io/tits) and other Integrations
 
