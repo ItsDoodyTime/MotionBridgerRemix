@@ -127,9 +127,9 @@ This version prioritizes **ease of use over flexibility**.
 
 ## More Information
 
-[Wiki & Documentation](#)
-[Rigging Guide](#)
-[Example Tracking Rig](#)
+- [Wiki & Documentation](/wiki)
+- [Rigging Guide](#)
+- [Example Tracking Rig](#)
 
 ---
 
