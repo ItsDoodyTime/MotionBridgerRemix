@@ -17,6 +17,7 @@ This tool is made for:
 - Short-form or long-form content creators
 - PNGTubers & VTubers
 - People interested in VTubing, streaming, and rigging models.
+- PNGTubeRemix Users
 
 If you want a VTuber-style model but:
 - don’t want to spend hundreds on rigging,
