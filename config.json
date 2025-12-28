@@ -1,0 +1,90 @@
+{
+  "__comment": "PNGRemix Motion Tracker configuration file. Edit values only, do not remove keys.",
+
+  "websocket": {
+    "__comment": "PNGTubeRemix WebSocket connection settings",
+    "host": "127.0.0.1",
+    "port": 9321,
+    "reconnect_delay_seconds": 5
+  },
+
+  "preview": {
+    "__comment": "Camera preview and landmark visualization",
+    "show_camera": true,
+    "draw_face_mesh": true,
+    "draw_landmarks": true
+  },
+
+  "performance": {
+    "__comment": "Camera and performance tuning",
+    "camera_index": 0,
+    "max_fps": 30
+  },
+
+  "smoothing": {
+    "__comment": "Higher values = smoother but slower response (0.0 - 0.99)",
+    "head_rotation": 0.85
+  },
+
+  "deadzone": {
+    "__comment": "Ignore very small movements to prevent jitter",
+    "yaw": 0.01,
+    "pitch": 0.01,
+    "roll": 0.01
+  },
+
+  "head_rotation": {
+    "__comment": "Multiplier strength for head movement",
+    "yaw_multiplier": 30.0,
+    "pitch_multiplier": 30.0,
+    "roll_multiplier": 25.0
+  },
+
+  "actions": {
+    "__comment": "Map motion values to PNGTubeRemix sprite actions",
+
+    "head_yaw": [
+      {
+        "__comment": "Trigger when head turns left",
+        "sprite": "Head_Left",
+        "condition": "<",
+        "threshold": -5,
+        "value": 1.0
+      },
+      {
+        "__comment": "Trigger when head turns right",
+        "sprite": "Head_Right",
+        "condition": ">",
+        "threshold": 5,
+        "value": 1.0
+      }
+    ],
+
+    "head_pitch": [
+      {
+        "__comment": "Trigger when looking up",
+        "sprite": "Head_Up",
+        "condition": "<",
+        "threshold": -4,
+        "value": 1.0
+      },
+      {
+        "__comment": "Trigger when looking down",
+        "sprite": "Head_Down",
+        "condition": ">",
+        "threshold": 4,
+        "value": 1.0
+      }
+    ],
+
+    "head_roll": [
+      {
+        "__comment": "Trigger when head is tilted either direction",
+        "sprite": "Head_Tilt",
+        "condition": "abs>",
+        "threshold": 6,
+        "value": 1.0
+      }
+    ]
+  }
+}
