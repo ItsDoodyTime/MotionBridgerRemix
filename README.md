@@ -54,7 +54,7 @@ MotionBridgerRemix comes in **two editions**, depending on your experience level
 
 ---
 
-## Developer Pack (`MotionBridgeRemix-dev-pack.zip`)
+## Developer Pack (`MotionBridgerRemix-dev-pack.zip`)
 
 Best for advanced users, developers, or heavy customization.
 
