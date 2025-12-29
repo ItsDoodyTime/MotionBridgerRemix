@@ -114,8 +114,9 @@ This version prioritizes **flexibility over ease of use**.
 - [Wiki & Documentation](https://github.com/ItsDoodyTime/MotionBridgerRemix/wiki)
 - [Rigging Guide](#)
 - [Example Tracking Rig](#)
-
-### For Support & Bug Reporting contact me through the Discussions or Issues tab!
+- [Bug Report](/issues)
+- [Help & Support](/discussions)
+- [Feedback & Suggestion](/discussions)
 
 ---
 
