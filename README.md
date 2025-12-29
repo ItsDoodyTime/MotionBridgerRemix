@@ -70,10 +70,10 @@ MotionBridgerRemix comes in **two editions**, depending on your experience level
 ### Which one to use? (TL;DR)
 
 - **You don’t know how to code / want plug-and-play:**  
-  → [`MotionBridgerRemix`](https://github.com/ItsDoodyTime/MotionBridgerRemix#-pre-packaged-tool-motionbridgerremix)
+  → [`MotionBridgerRemix`](#-pre-packaged-tool-motionbridgerremix---plug-and-play)
   
 - **You know how to code in Python / want to customize things further:**  
-  → [`MotionBridgeRemix-Dev-Pack`](https://github.com/ItsDoodyTime/MotionBridgerRemix#-developer-pack-motionbridgerremix-dev-pack)
+  → [`MotionBridgeRemix-Dev-Pack`](#-developer-pack-motionbridgerremix-dev-pack)
 
 ---
 
