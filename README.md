@@ -115,6 +115,8 @@ This version prioritizes **flexibility over ease of use**.
 - [Rigging Guide](#)
 - [Example Tracking Rig](#)
 
+### For Support & Bug Reporting contact me through the Discussions or Issues tab!
+
 ---
 
 ## 🔒 Privacy & Usage
