@@ -5,7 +5,7 @@ a = Analysis(
     ['MotionBridgeRemix.py'],
     pathex=[],
     binaries=[],
-    datas=[('config.json', '.'), ('face_landmarker.task', '.')],
+    datas=[('config.json', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

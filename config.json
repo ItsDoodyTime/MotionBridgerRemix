@@ -1,90 +1,109 @@
 {
-  "__comment": "PNGRemix Motion Tracker configuration file. Edit values only, do not remove keys.",
+  "__comment": "Welcome to MotionBridgerRemix Configuration File!",
+  "__comment_2": "UI options (camera preview, mesh, buttons) are NOT controlled here anymore.",
 
   "websocket": {
-    "__comment": "PNGTubeRemix WebSocket connection settings",
+    "__comment": "Connection settings for PNGTubeRemix WebSocket server",
+
     "host": "127.0.0.1",
+    "__comment_host": "IP address where PNGTubeRemix is running (usually 127.0.0.1 or localhost)",
+
     "port": 9321,
-    "reconnect_delay_seconds": 5
+    "__comment_port": "WebSocket port used by PNGTubeRemix",
+
+    "reconnect_delay_seconds": 5,
+    "__comment_reconnect": "How long to wait in seconds, before attempting to reconnect if the connection fails (Default = 5)"
   },
 
-  "preview": {
-    "__comment": "Camera preview and landmark visualization",
-    "show_camera": true,
-    "draw_face_mesh": true,
-    "draw_landmarks": true
-  },
 
   "performance": {
-    "__comment": "Camera and performance tuning",
+    "__comment": "Camera and performance-related settings",
+
     "camera_index": 0,
-    "max_fps": 30
+    "__comment_camera": "Camera device index (0 = default webcam, if 0 doesn't work, keep trying +1 each time)",
+    "max_fps": 30,
+    "__comment_fps": "Maximum tracking FPS (lower = less CPU usage // Default = 20)"
   },
 
   "smoothing": {
-    "__comment": "Higher values = smoother but slower response (0.0 - 0.99)",
-    "head_rotation": 0.85
+    "__comment": "Smoothing values to reduce snappy movement",
+    "head_rotation": 0.75,
+    "__comment_smoothing": "0.0 = no smoothing, 0.9 = very smooth (Default = 0.75) | Higher values = smoother but slower response."
   },
 
   "deadzone": {
-    "__comment": "Ignore very small movements to prevent jitter",
-    "yaw": 0.01,
-    "pitch": 0.01,
-    "roll": 0.01
+    "__comment": "Small movements under these values will be ignored to prevent jitter",
+    "x": 0.01,
+    "y": 0.01,
+    "z": 0.01,
+    "rotation": 0.01
   },
 
-  "head_rotation": {
-    "__comment": "Multiplier strength for head movement",
-    "yaw_multiplier": 30.0,
-    "pitch_multiplier": 30.0,
-    "roll_multiplier": 25.0
-  },
+  "sprites": {
+    "__comment": "Each entry below represents ONE sprite/action in PNGTubeRemix",
+    "__comment_2": "You can duplicate these blocks to add as many sprites as you want",
 
-  "actions": {
-    "__comment": "Map motion values to PNGTubeRemix sprite actions",
+    "DoodyHead": {
+      "__comment": "Main head movement sprite",
 
-    "head_yaw": [
-      {
-        "__comment": "Trigger when head turns left",
-        "sprite": "Head_Left",
-        "condition": "<",
-        "threshold": -5,
-        "value": 1.0
+      "tracker": "HEAD",
+      "__comment_tracker": "What MediaPipe tracker to use: HEAD (others later: EYE, MOUTH, BROW, IRIS)",
+
+      "conditions": {
+        "__comment": "Conditions that must be met to trigger the following output",
+
+        "x": {
+          "min": -5,
+          "max": 5
+        },
+        "__comment_x": "Trigger when head X movement is between -5 and 5",
+
+        "y": {
+          "min": -5,
+          "max": 5
+        },
+
+        "z": {
+          "min": -5,
+          "max": 5
+        },
+
+        "rotation": {
+          "min": -10,
+          "max": 10
+        },
+        "__comment_note": "realistically you're not gonna meet all of these conditions at the same time, to trigger the output below. so only add conditions that are realistic."
       },
-      {
-        "__comment": "Trigger when head turns right",
-        "sprite": "Head_Right",
-        "condition": ">",
-        "threshold": 5,
-        "value": 1.0
-      }
-    ],
 
-    "head_pitch": [
-      {
-        "__comment": "Trigger when looking up",
-        "sprite": "Head_Up",
-        "condition": "<",
-        "threshold": -4,
-        "value": 1.0
+      "output": {
+        "__comment": "Values that will be sent to PNGTubeRemix when conditions are met",
+
+        "x": 30,
+        "y": 30,
+        "z": 25,
+        "rotation": 20
       },
-      {
-        "__comment": "Trigger when looking down",
-        "sprite": "Head_Down",
-        "condition": ">",
-        "threshold": 4,
-        "value": 1.0
-      }
-    ],
 
-    "head_roll": [
-      {
-        "__comment": "Trigger when head is tilted either direction",
-        "sprite": "Head_Tilt",
-        "condition": "abs>",
-        "threshold": 6,
-        "value": 1.0
-      }
-    ]
+      "state_id": 1,
+      "__comment_state": "State/Toggle ID used by PNGTubeRemix"
+    },
+
+    "Head_but_better_idk_this_is_just_an_example": {
+      "__comment": "Example of a second sprite triggered only when head tilts right",
+
+      "tracker": "HEAD",
+
+      "conditions": {
+        "rotation": {
+          "min": 8
+        }
+      },
+
+      "output": {
+        "rotation": 15
+      },
+
+      "state_id": 2
+    }
   }
 }
