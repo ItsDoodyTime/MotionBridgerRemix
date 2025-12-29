@@ -69,10 +69,23 @@ MotionBridgerRemix comes in **two editions**, depending on your experience level
 
 ### Which one to use? (TL;DR)
 
-- **You know how to code in Python / want to customize things further:**  
-  → `MotionBridgeRemix-Dev-Pack`
 - **You don’t know how to code / want plug-and-play:**  
-  → `MotionBridgerRemix`
+  → [`MotionBridgerRemix`](https://github.com/ItsDoodyTime/MotionBridgerRemix#-pre-packaged-tool-motionbridgerremix)
+  
+- **You know how to code in Python / want to customize things further:**  
+  → [`MotionBridgeRemix-Dev-Pack`](https://github.com/ItsDoodyTime/MotionBridgerRemix#-developer-pack-motionbridgerremix-dev-pack)
+
+---
+
+### 📦 Pre-Packaged Tool (`MotionBridgerRemix`) - Plug and Play!
+
+Best for beginners and creators who want simplicity or to bring more life to their model.
+
+**What's included:**
+- Python and all Dependencies bundled in one file
+- Simple workflow: **install → configure → run**
+
+This version prioritizes **ease of use over flexibility**.
 
 ---
 
@@ -93,18 +106,6 @@ Best for advanced users, developers, or heavy customization.
 
 This version prioritizes **flexibility over ease of use**.
 > **IMPORTANT:** Read the documentation to learn how to install this edition!
-
----
-
-### 📦 Pre-Packaged Tool (`MotionBridgerRemix`)
-
-Best for beginners and creators who want simplicity or to bring more life to their model.
-
-**What's included:**
-- Python and all Dependencies bundled in one file
-- Simple workflow: **install → configure → run**
-
-This version prioritizes **ease of use over flexibility**.
 
 ---
 
