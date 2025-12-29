@@ -13,16 +13,15 @@ There is currently **no ETA** for a public release. - [View the Planned Features
 #### 🚨THIS TOOL WILL NOT WORK WITHOUT PNGTUBEREMIX!🚨
 ---
 
-## Features
-- Head Tracking: Pitch, Yaw, Roll
-- Blinking Tracking by Threshold
-- Eye Tracking: Pitch only (Yaw included too but inconsistent and estimated!)
+## 💎 Features
+- Head, Eye, Eyebrow, Mouth Tracking
+- Safety Locks
 - Actions Per Sprite part
 - Self-Check Diagnosis and Optimized
-- Configurable & 100% Customizable
-- Open source & FREE forever!
+- 100% CONFIGURABLE & CUSTOMIZABLE
+- OPEN SOURCE & FREE FOREVER!
 
-## Compatibility
+## 👍 Compatibility
 **MBR** is compatible with:
 - Models with lots of individually moving parts
 - Toggles, Assets, children sprites
@@ -70,61 +69,46 @@ MotionBridgerRemix comes in **two editions**, depending on your experience level
 
 ### Which one to use? (TL;DR)
 
-- **You know how to code in Python / want to customize things:**  
+- **You know how to code in Python / want to customize things further:**  
   → `MotionBridgeRemix-Dev-Pack`
 - **You don’t know how to code / want plug-and-play:**  
   → `MotionBridgerRemix`
 
 ---
 
-### Developer Pack (`MotionBridgerRemix-Dev-Pack`)
+### 💻 Developer Pack (`MotionBridgerRemix-Dev-Pack`)
 
 Best for advanced users, developers, or heavy customization.
 
 **What’s included:**
 - All source code used during development with comments to help guide you.
-- Very small file size (source only)
+- Old Code of previous versions
+- Config file
+- Debugging Tools
 
 **Use this version if:**
 - You want to modify or extend the code
-- Your model rig is super advanced
-- You’re comfortable writing or adjusting Python scripts (there's a slight learning curve!)
+- Your model rig is super advanced and requires further customization
+- You’re comfortable writing or adjusting Python scripts
 
-#### Required Dependencies
-
-- **Python** — core language  
-- **OpenCV-Python** — webcam input, performance optimizations  
-- **MediaPipe** — motion tracking  
-- **WebSocket-Client** — communication with PNGTubeRemix
-- **NumPy** — fast math and array handling  
-- **PyInstaller** - OPTIONAL: used for bundling everything in one executable (Recommended for Content Creation, keeps the directory clean!)
-> These dependencies are not included in the package!
-
-Streamlined command to install all dependencies (Assuming you have Python installed):
-
-`pip install opencv-python mediapipe websocket-client numpy pyinstaller`
+This version prioritizes **flexibility over ease of use**.
+> **IMPORTANT:** Read the documentation to learn how to install this edition!
 
 ---
 
-### Pre-Packaged Tool (`MotionBridgerRemix`)
+### 📦 Pre-Packaged Tool (`MotionBridgerRemix`)
 
 Best for beginners and creators who want simplicity or to bring more life to their model.
 
 **What's included:**
-- One-file Executable
-- Python and all Dependencies bundled
+- Python and all Dependencies bundled in one file
 - Simple workflow: **install → configure → run**
-
-**Notes:**
-- Larger file size due to all of the libraries and dependencies
-- You're limited to the Configuration  
-  - Meaning if I haven't added a feature or sprite part and it isn’t listed in the config, it can’t be modified. :/
 
 This version prioritizes **ease of use over flexibility**.
 
 ---
 
-## More Information
+## 📖 More Information
 
 - [Wiki & Documentation](https://github.com/ItsDoodyTime/MotionBridgerRemix/wiki)
 - [Rigging Guide](#)
@@ -132,7 +116,7 @@ This version prioritizes **ease of use over flexibility**.
 
 ---
 
-## Privacy & Usage
+## 🔒 Privacy & Usage
 
 Please read the **[Privacy & Usage Notice](https://github.com/ItsDoodyTime/MotionBridgerRemix/blob/main/PRIVACY.md)** before using this software.
 
@@ -140,9 +124,10 @@ Please read the **[Privacy & Usage Notice](https://github.com/ItsDoodyTime/Motio
 
 ## Planned Features:
 - Animation Presets
-- Hand tracking
-- Mesh Manipulation
-- Setup wizard to simplify the configuration of the tool
-- Profile System (Switching profiles for different models with different config values.)
-- My own version of [T.I.T.S](https://remasuri3.itch.io/tits) and other Integrations
+- Hand tracking (this is a **MAYBE**, it's a lot of work and im lazy)
+- Mesh Manipulation (**ONLY IF** PNGTubeRemix team add it to their websocket API)
+- Add Multiple tracking API's and let users switch between them.
+- ⭐ Setup wizard to simplify the configuration of the tool
+- ⭐ Profile System (Switching profiles for different models with different config values.)
+- ⭐ My own version of [T.I.T.S](https://remasuri3.itch.io/tits) and other Integrations
 
