@@ -1,5 +1,5 @@
 # MotionBridgerRemix
-Free motion tracking bridge for [PNGTubeRemix](https://github.com/MudkipWorld/PNGTuber-Remix) by [MudkipWorld (AKA TheMime)](https://github.com/MudkipWorld). Turn your PNG into a VTuber using webcam face, eye, body, and hand tracking. — No Live2D or paid software required!
+Free motion tracking bridge for [PNGTubeRemix](https://github.com/MudkipWorld/PNGTuber-Remix) by [MudkipWorld (AKA TheMime)](https://github.com/MudkipWorld). Turn your PNG into a VTuber using webcam face, head, eye, and mouth tracking. — No Live2D or paid software required!
 
 ![motionbridgerremix-social-banner](https://github.com/user-attachments/assets/14094005-f5b9-43d4-b81c-21e99605b282)
 
@@ -17,14 +17,13 @@ There is currently **no ETA** for a public release. - [View the Planned Features
 - Head Tracking: Pitch, Yaw, Roll
 - Blinking Tracking by Threshold
 - Eye Tracking: Pitch only (Yaw included too but inconsistent and estimated!)
-- Body tracking: Roll only
 - Actions Per Sprite part
 - Self-Check Diagnosis and Optimized
 - Configurable & 100% Customizable
 - Open source & FREE forever!
 
 ## Compatibility
-MBR is compatible with:
+**MBR** is compatible with:
 - Models with lots of individually moving parts
 - Toggles, Assets, children sprites
 - Cycling Sprites
