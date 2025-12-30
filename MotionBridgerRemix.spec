@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['MotionBridgeRemix.py'],
+    ['MotionBridgerRemix.py'],
     pathex=[],
     binaries=[],
     datas=[('config.json', '.')],
@@ -21,7 +21,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='MotionBridgeRemix',
+    name='MotionBridgerRemix',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -41,5 +41,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='MotionBridgeRemix',
+    name='MotionBridgerRemix',
 )
