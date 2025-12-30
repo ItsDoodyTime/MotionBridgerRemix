@@ -1,4 +1,4 @@
-build/MotionBridgeRemix/MotionBridgeRemix.pkg
-venv/Lib/site-packages/jaxlib/jax_common.dll
-/dist
-/logs
+build/
+venv/
+dist/
+logs/
