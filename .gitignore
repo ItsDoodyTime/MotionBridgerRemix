@@ -1,5 +1,6 @@
-build/
-build/MotionBridgeRemix/
-venv/
-dist/
-logs/
+/build
+/venv
+/dist
+/logs
+/face_landmarker.task
+/test.py
