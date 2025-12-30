@@ -1,4 +1,4 @@
-## Privacy & Data Usage
+## Privacy & Usage Notice
 
 This tool processes webcam input locally on your own computer in order to perform real-time motion tracking.
 
@@ -26,3 +26,4 @@ Users are responsible for maintaining the security of their own systems.
 
 This project uses open-source libraries including MediaPipe and OpenCV.
 Their licenses and privacy practices apply only to their respective code.
+
