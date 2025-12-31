@@ -75,7 +75,7 @@ MotionBridgerRemix comes in **two editions**, depending on your experience level
 
 ### 📦 Pre-Packaged Tool (`MotionBridgerRemix`) - Plug and Play!
 
-Best for beginners and creators who want simplicity or to bring more life to their model.
+Best for beginners and creators who want simplicity and to bring more life to their model.
 
 **What's included:**
 - Python and all Dependencies bundled in one file
