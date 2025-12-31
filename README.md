@@ -25,21 +25,17 @@ There is currently **no ETA** for a public release. - [View the Planned Features
 ## 👍 Compatibility
 **MBR** is compatible with:
 - Models with lots of individually moving parts
-- Toggles, Assets, children sprites
-- Cycling Sprites
-- States
-- Meshes
-- Phone, Virtual, and Actual Cameras (and webcams)
+- States/Toggles, Assets, parent/children setups, Meshes, Static and Cycling Sprites
+- Webcam, Phone, Virtual, and Photography Cameras (Any Camera)
 
 ---
 
 ## Who is this tool for?
 
 This tool is made for:
-- Streamers & YouTubers
-- Short-form or long-form content creators
+- Streamers, YouTubers and content creators
 - PNGTubers & VTubers
-- People interested in VTubing, streaming, and rigging models.
+- People interested in streaming, PNGTubing, VTubing, and rigging models.
 - PNGTubeRemix Users
 
 If you want a VTuber-style model but:
@@ -60,7 +56,7 @@ If you want a VTuber-style model but:
 
 That said, rigging specifically for tracking will give **better results**.
 
-Don't worry! If that's something you're interested in, I will go over the entire rigging process with you in the tool's documentation, to help you get the best tracking results! :)
+If that's something you're interested in, check the tool's documentation, to understand how you can get the best tracking results! :)
 
 ---
 
@@ -71,10 +67,10 @@ MotionBridgerRemix comes in **two editions**, depending on your experience level
 ### Which one to use? (TL;DR)
 
 - **You don’t know how to code / want plug-and-play:**  
-  → [`MotionBridgerRemix`](#-pre-packaged-tool-motionbridgerremix---plug-and-play)
+  → 📦 [`MotionBridgerRemix`](#-pre-packaged-tool-motionbridgerremix---plug-and-play)
   
 - **You know how to code in Python / want to customize things further:**  
-  → [`MotionBridgeRemix-Dev-Pack`](#-developer-pack-motionbridgerremix-dev-pack)
+  → 💻 [`MotionBridgeRemix-Dev-Pack`](#-developer-pack-motionbridgerremix-dev-pack)
 
 ---
 
@@ -96,7 +92,7 @@ Best for advanced users, developers, or heavy customization.
 
 **What’s included:**
 - All source code used during development with comments to help guide you.
-- Old Code of previous versions
+- `MotionBridgerRemix.spec` & `requirements.txt` for project details and dependencies
 - Config file
 - Debugging Tools
 
@@ -115,6 +111,7 @@ This version prioritizes **flexibility over ease of use**.
 - [Wiki & Documentation](https://github.com/ItsDoodyTime/MotionBridgerRemix/wiki)
 - [Rigging Guide](#)
 - [Example Tracking Rig](#)
+### Support:
 - [Bug Report](https://github.com/ItsDoodyTime/MotionBridgerRemix/issues)
 - [Help & Support](https://github.com/ItsDoodyTime/MotionBridgerRemix/discussions)
 - [Feedback & Suggestion](https://github.com/ItsDoodyTime/MotionBridgerRemix/discussions)
