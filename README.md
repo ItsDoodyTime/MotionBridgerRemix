@@ -54,15 +54,14 @@ If you want a VTuber-style model but:
 - This tool was made for PNGTubeRemix, **it WON'T work without it!**
 - Your PNG **does not need to be specifically rigged for tracking** — standard PNGTuber rigs work just fine.
 
-That said, rigging specifically for tracking will give **better results**.
-
-If that's something you're interested in, check the tool's documentation, to understand how you can get the best tracking results! :)
+That said, rigging specifically for tracking will give **better results**.<br>
+If that's something you're interested in, check the tool's documentation to understand how you can get the best tracking results! :)
 
 ---
 
 ## MotionBridgerRemix Editions
 
-MotionBridgerRemix comes in **two editions**, depending on your experience level.
+MotionBridgerRemix comes in **two editions**, depending on your experience level and needs.
 
 ### Which one to use? (TL;DR)
 
