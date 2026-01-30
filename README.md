@@ -1,14 +1,14 @@
 # MotionBridgerRemix
 Free motion tracking bridge for [PNGTubeRemix](https://github.com/MudkipWorld/PNGTuber-Remix) by [MudkipWorld (AKA TheMime)](https://github.com/MudkipWorld). Turn your PNG into a VTuber using webcam face, head, eye, and mouth tracking. — No Live2D or paid software required!
 
-<img width="1280" height="640" alt="motionbridgerremix-banner" src="https://github.com/user-attachments/assets/bea0e28a-0b55-4af6-8152-1f417a6e0e32" />
+<img width="1280" height="640" alt="motionbridgerremix-banner2" src="https://github.com/user-attachments/assets/8437a6b6-abb5-44da-ab21-5ade21ca075e" />
 
 
 ---
 
 ## 🚧 This Project is Still: Work in Progress!
 There is currently **no ETA** for a public release. - [View the Planned Features](#planned-features)
-> (Sorry, still working out the flaws and optimization.)
+> (Sorry, I'm rewriting the whole system.)
 
 ### ⚠️PLEASE SAVE A BACKUP OF YOUR RIG BEFORE RUNNING THIS TOOL!⚠️
 #### 🚨THIS TOOL WILL NOT WORK WITHOUT PNGTUBEREMIX!🚨
@@ -17,7 +17,11 @@ There is currently **no ETA** for a public release. - [View the Planned Features
 ## 💎 Features
 - Head, Eye, Eyebrow, Mouth Tracking
 - Safety Locks
+- Auto-Configure
+- Support for Multiple Tracking API's (Main two: MediaPipe & OpenSeeFace)
 - Actions Per Sprite part
+- Flexible for Advanced Use
+- Integration with StreamerBot
 - Self-Check Diagnosis and Optimized
 - 100% CONFIGURABLE & CUSTOMIZABLE
 - OPEN SOURCE & FREE FOREVER!
@@ -25,8 +29,8 @@ There is currently **no ETA** for a public release. - [View the Planned Features
 ## 👍 Compatibility
 **MBR** is compatible with:
 - Models with lots of individually moving parts
-- States/Toggles, Assets, parent/children setups, Meshes, Static and Cycling Sprites
-- Webcam, Phone, Virtual, and Photography Cameras (Any Camera)
+- States/Toggles, Assets, parent/children setups, Meshes, Static and Cycling/Animated Sprites
+- ANY Camera (Webcam, Phone, Virtual, and Photography Cameras)
 
 ---
 
@@ -53,6 +57,9 @@ If you want a VTuber-style model but:
 
 - This tool was made for PNGTubeRemix, **it WON'T work without it!**
 - Your PNG **does not need to be specifically rigged for tracking** — standard PNGTuber rigs work just fine.
+> - "Standard" meaning: Your PNGTuber Model's sprites/layers need to have simple names ***IF*** You want MBR to Auto-Configure everything. (Ex: Head = ✓ | 1234Head-with-Mask = ✘)<br>
+> - If you don't have simple names for your sprites/layers, you can enter advanced mode and confgirue things yourself in the UI.<br>
+> ⚠️ Your sprites cannot have empty spaces in their names.
 
 That said, rigging specifically for tracking will give **better results**.<br>
 If that's something you're interested in, check the tool's documentation to understand how you can get the best tracking results! :)
@@ -78,7 +85,7 @@ MotionBridgerRemix comes in **two editions**, depending on your experience level
 Best for beginners and creators who want simplicity and to bring more life to their model.
 
 **What's included:**
-- Python and all Dependencies bundled in one file
+- All Dependencies bundled in one file.
 - Simple workflow: **install → configure → run**
 
 This version prioritizes **ease of use over flexibility**.
@@ -100,8 +107,8 @@ Best for advanced users, developers, or heavy customization.
 - Your model rig is super advanced and requires further customization
 - You’re comfortable writing or adjusting Python scripts
 
-This version prioritizes **flexibility over ease of use**.
-> **IMPORTANT:** Read the documentation to learn how to install this edition!
+This version prioritizes **flexibility over ease of use**.<br>
+   **IMPORTANT:** Read the documentation to learn how to install this edition!
 
 ---
 
@@ -125,10 +132,6 @@ Please read the **[Privacy & Usage Notice](https://github.com/ItsDoodyTime/Motio
 
 ## Planned Features:
 - Animation Presets
-- Hand tracking (this is a **MAYBE**, it's a lot of work and im lazy)
-- Mesh Manipulation (**ONLY IF** PNGTubeRemix team add it to their websocket API)
-- Add Multiple tracking API's and let users switch between them.
-- ⭐ Setup wizard to simplify the configuration of the tool
 - ⭐ Profile System (Switching profiles for different models with different config values.)
 - ⭐ My own version of [T.I.T.S](https://remasuri3.itch.io/tits) and other Integrations
 
