@@ -31,6 +31,7 @@ There is currently **no ETA** for a public release. - [View the Planned Features
 - Models with lots of individually moving parts
 - States/Toggles, Assets, parent/children setups, Meshes, Static and Cycling/Animated Sprites
 - ANY Camera (Webcam, Phone, Virtual, and Photography Cameras)
+- Operating systems: Windows (Tested), Linux and MacOs (not tested but *should* work.)
 
 ---
 
