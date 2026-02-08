@@ -136,3 +136,7 @@ Please read the **[Privacy & Usage Notice](https://github.com/ItsDoodyTime/Motio
 - ⭐ Profile System (Switching profiles for different models with different config values.)
 - ⭐ My own version of [T.I.T.S](https://remasuri3.itch.io/tits) and other Integrations
 
+---
+
+## 🚫 No Generative-AI used
+This software is 100% human-made.
