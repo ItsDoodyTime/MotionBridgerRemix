@@ -11,6 +11,16 @@
 # By @ItsDoodyTime
 # https://github.com/ItsDoodyTime/MotionBridgerRemix
 # ==================================================
+# 
+# Hey There!
+# - Every section is labled for easier navigation
+# - Some sections have a description and some don't
+# 
+# I don't know what I'm doing....
+# Sorry if the code is bad!
+# 
+# - Happy Coding! ♥
+# ==================================================
 
 
 import cv2
