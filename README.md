@@ -1,4 +1,5 @@
-# MotionBridgerRemix
+# MotionBridgerRemix - 🚧 WIP 🚧
+## No ETA for Public Release Builds! - Sorry!
 Free motion tracking bridge for [PNGTubeRemix](https://github.com/MudkipWorld/PNGTuber-Remix) by [MudkipWorld (AKA TheMime)](https://github.com/MudkipWorld). Turn your PNG into a VTuber using webcam face, head, eye, and mouth tracking. — No Live2D or paid software required!
 
 <img width="1280" height="640" alt="motionbridgerremix-banner2" src="https://github.com/user-attachments/assets/8437a6b6-abb5-44da-ab21-5ade21ca075e" />
